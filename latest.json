@@ -1,11 +1,11 @@
 {
-  "versionCode": 28,
-  "versionName": "1.9.1",
-  "apkFileName": "app-personal-release-updater28-20261124.apk",
-  "apkUrl": "https://github.com/mehdinikzad68/lumi-releases/releases/download/v1.9.1/app-personal-release-updater28-20261124.apk",
-  "sha256": "b32d09328c26cb61b5834c79749b378873f7e76d6f253d1bdc955cdee967cc02",
-  "sizeBytes": 125549191,
-  "notesEn": "In-app updates + update-check fix",
-  "notesFa": "آپدیت داخل برنامه + اصلاح بررسی آپدیت",
-  "publishedAt": "2026-11-24T18:28:47Z"
+  "versionCode": 29,
+  "versionName": "1.9.2",
+  "apkFileName": "app-personal-release-kbfix-20261124.apk",
+  "apkUrl": "https://github.com/mehdinikzad68/lumi-releases/releases/download/v1.9.2/app-personal-release-kbfix-20261124.apk",
+  "sha256": "8e7a806ce02e43339ae8acef362b6b390ef310e34778e2a51af8d0484075c7db",
+  "sizeBytes": 125549199,
+  "notesEn": "Keyboard-dock fix: compose bar sits flush on the keyboard; hero header no longer clipped",
+  "notesFa": "اصلاح چسبیدن نوار نوشتن به کیبورد + رفع بریدگی عنوان کارت اصلی",
+  "publishedAt": "2026-11-24T20:47:14Z"
 }
