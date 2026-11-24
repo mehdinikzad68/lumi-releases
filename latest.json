@@ -1,0 +1,11 @@
+{
+  "versionCode": 28,
+  "versionName": "1.9.1",
+  "apkFileName": "app-personal-release-updater28-20261124.apk",
+  "apkUrl": "https://github.com/mehdinikzad68/lumi-releases/releases/download/v1.9.1/app-personal-release-updater28-20261124.apk",
+  "sha256": "b32d09328c26cb61b5834c79749b378873f7e76d6f253d1bdc955cdee967cc02",
+  "sizeBytes": 125549191,
+  "notesEn": "In-app updates + update-check fix",
+  "notesFa": "آپدیت داخل برنامه + اصلاح بررسی آپدیت",
+  "publishedAt": "2026-11-24T18:28:47Z"
+}
