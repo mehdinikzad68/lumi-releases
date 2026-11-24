@@ -8,3 +8,8 @@ This repository hosts **only**:
 - The update manifest the app checks to discover new versions
 
 There is **no source code** in this repository. Lumi's source code lives in a separate, private repository and is not published here.
+
+## User guides
+
+- [User Guide (English)](USER-GUIDE-EN.md)
+- [راهنمای کاربر (فارسی)](USER-GUIDE-FA.md)
