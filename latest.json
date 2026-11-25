@@ -1,11 +1,11 @@
 {
-  "versionCode": 30,
-  "versionName": "1.9.3",
-  "apkFileName": "app-personal-release-livefix-20261125.apk",
-  "apkUrl": "https://github.com/mehdinikzad68/lumi-releases/releases/download/v1.9.3/app-personal-release-livefix-20261125.apk",
-  "sha256": "39978e9fed7cf0435b0f6981b2a015f96902a21885e35be717decff9884c13df",
-  "sizeBytes": 125549191,
-  "notesEn": "Live connection fix: doubled 'models/' prefix in the Live model name removed (close code 1008)",
-  "notesFa": "رفع مشکل اتصال Live: حذف پیشوند دوباره «models/» از نام مدل (کد بسته‌شدن ۱۰۰۸)",
-  "publishedAt": "2026-11-25T09:30:29Z"
+  "versionCode": 31,
+  "versionName": "1.9.4",
+  "apkFileName": "app-personal-release-drawer-20261125.apk",
+  "apkUrl": "https://github.com/mehdinikzad68/lumi-releases/releases/download/v1.9.4/app-personal-release-drawer-20261125.apk",
+  "sha256": "dd6f5aeddf376e2ab878caefabe435a754b30e1b123ecc5b16c2d482e0634d25",
+  "sizeBytes": 125550611,
+  "notesEn": "Unified sessions drawer with section shortcuts and a bottom dock (Settings, live search, New session), plus double-back exit with a hint pill",
+  "notesFa": "کشوی یکپارچه سشن‌ها با میانبر بخش‌ها و نوار پایینی (تنظیمات، جستجوی زنده، سشن جدید) و خروج با بازگشت دوباره همراه با راهنما",
+  "publishedAt": "2026-11-25T10:40:27Z"
 }
