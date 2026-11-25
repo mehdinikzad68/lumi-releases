@@ -1,11 +1,11 @@
 {
-  "versionCode": 33,
-  "versionName": "1.9.6",
-  "apkFileName": "app-personal-release-notesmic-20261125.apk",
-  "apkUrl": "https://github.com/mehdinikzad68/lumi-releases/releases/download/v1.9.6/app-personal-release-notesmic-20261125.apk",
-  "sha256": "0dd8fa3c6eb535741089c0386f7e24902a8875e540d3d3719681df6280aef206",
-  "sizeBytes": 125551967,
-  "notesEn": "Notes microphone redesigned: a floating button, orange at rest and fully red with a gentle pulse and ripple while recording. Fixed: the panel now follows recordings live so a take can always be stopped or discarded, and tapping the mic without permission no longer crashes — the system permission dialog appears instead.",
-  "notesFa": "میکروفون یادداشت‌ها بازطراحی شد: دکمه‌ای شناور که در حالت عادی نارنجی است و هنگام ضبط کاملاً قرمز می‌شود و ضربان و موج ملایمی دارد. رفع اشکال: پنل حالا ضبط را زنده دنبال می‌کند تا هر ضبطی همیشه قابل توقف یا حذف باشد، و لمس میکروفون بدون مجوز دیگر برنامه را نمی‌بندد؛ به‌جای آن دیالوگ مجوز سیستم نمایش داده می‌شود.",
-  "publishedAt": "2026-11-25T15:53:56Z"
+  "versionCode": 34,
+  "versionName": "1.9.7",
+  "apkFileName": "app-personal-release-dock-20261125.apk",
+  "apkUrl": "https://github.com/mehdinikzad68/lumi-releases/releases/download/v1.9.7/app-personal-release-dock-20261125.apk",
+  "sha256": "33f85883d49b0de7cd08820a3f2a9c006ac3aa96e888fc0d4e6a9fdebeb14d3f",
+  "sizeBytes": 125551971,
+  "notesEn": "One dock for the Agent panel: the compose field and the action strip now live in a single card — a floating warm card with the orange mic and a warm-brown keyboard button while the keyboard is closed, which attaches flush to the keyboard's top edge when it opens. The hover gap and shadow band above the keyboard are gone: the dock's bottom edge now sits exactly on the keyboard.",
+  "notesFa": "داک یکپارچه برای پنل ایجنت: کادر نوشتن و نوار دکمه‌ها حالا در یک کارت واحد هستند — وقتی صفحه‌کلید بسته است، کارتی گرم و شناور با میکروفون نارنجی و دکمهٔ صفحه‌کلید قهوه‌ای گرم، و وقتی صفحه‌کلید باز می‌شود، دقیقاً به لبهٔ بالایی صفحه‌کلید می‌چسبد. فاصله و سایهٔ بالای صفحه‌کلید حذف شده است: لبهٔ پایینی داک حالا دقیقاً روی صفحه‌کلید می‌نشیند.",
+  "publishedAt": "2026-11-25T17:08:20Z"
 }
