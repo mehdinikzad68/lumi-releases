@@ -1,11 +1,11 @@
 {
-  "versionCode": 34,
-  "versionName": "1.9.7",
-  "apkFileName": "app-personal-release-dock-20261125.apk",
-  "apkUrl": "https://github.com/mehdinikzad68/lumi-releases/releases/download/v1.9.7/app-personal-release-dock-20261125.apk",
-  "sha256": "33f85883d49b0de7cd08820a3f2a9c006ac3aa96e888fc0d4e6a9fdebeb14d3f",
-  "sizeBytes": 125551971,
-  "notesEn": "One dock for the Agent panel: the compose field and the action strip now live in a single card — a floating warm card with the orange mic and a warm-brown keyboard button while the keyboard is closed, which attaches flush to the keyboard's top edge when it opens. The hover gap and shadow band above the keyboard are gone: the dock's bottom edge now sits exactly on the keyboard.",
-  "notesFa": "داک یکپارچه برای پنل ایجنت: کادر نوشتن و نوار دکمه‌ها حالا در یک کارت واحد هستند — وقتی صفحه‌کلید بسته است، کارتی گرم و شناور با میکروفون نارنجی و دکمهٔ صفحه‌کلید قهوه‌ای گرم، و وقتی صفحه‌کلید باز می‌شود، دقیقاً به لبهٔ بالایی صفحه‌کلید می‌چسبد. فاصله و سایهٔ بالای صفحه‌کلید حذف شده است: لبهٔ پایینی داک حالا دقیقاً روی صفحه‌کلید می‌نشیند.",
-  "publishedAt": "2026-11-25T17:08:20Z"
+  "versionCode": 35,
+  "versionName": "1.9.8",
+  "apkFileName": "app-personal-release-voicecheck-20261125.apk",
+  "apkUrl": "https://github.com/mehdinikzad68/lumi-releases/releases/download/v1.9.8/app-personal-release-voicecheck-20261125.apk",
+  "sha256": "1cfaebca2b7775f6347cf725e7d560670bfb2779d9936942608c4ad61db67d4d",
+  "sizeBytes": 125579255,
+  "notesEn": "Voice model checks in AI settings: a Check button for each voice provider — Deepgram (transcription), Gemini Live (voice) and the local Vosk wake-word model — mirroring the brain-model check. Each check sends one tiny metadata request: no audio is sent, no transcription runs and no live session is opened; the Vosk check runs fully on-device. Results show the provider active with its latency, or the exact reason it is not.",
+  "notesFa": "بررسی مدل‌های صوتی در تنظیمات هوش مصنوعی: برای هر ارائه‌دهندهٔ صوتی یک دکمهٔ «بررسی» — دیپ‌گرام (رونویسی)، جمینای لایو (صدا) و مدل محلی وُسک (واژهٔ بیدارباش) — همانند بررسی مدل مغز. هر بررسی فقط یک درخواست کوچک فراداده می‌فرستد: هیچ صوتی ارسال نمی‌شود، هیچ رونویسی‌ای اجرا نمی‌شود و هیچ نشست زنده‌ای باز نمی‌شود؛ بررسی وُسک کاملاً روی خود دستگاه انجام می‌شود. نتیجه، فعال بودن ارائه‌دهنده همراه با زمان پاسخ را نشان می‌دهد یا دلیل دقیق فعال نبودن را.",
+  "publishedAt": "2026-11-25T18:07:55Z"
 }
