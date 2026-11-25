@@ -1,11 +1,11 @@
 {
-  "versionCode": 32,
-  "versionName": "1.9.5",
-  "apkFileName": "app-personal-release-presence-20261125.apk",
-  "apkUrl": "https://github.com/mehdinikzad68/lumi-releases/releases/download/v1.9.5/app-personal-release-presence-20261125.apk",
-  "sha256": "f883b3f4cae115a1af5ea45e17ca55e81cff34fb5bc0425bc5cafdf98bdb583f",
+  "versionCode": 33,
+  "versionName": "1.9.6",
+  "apkFileName": "app-personal-release-notesmic-20261125.apk",
+  "apkUrl": "https://github.com/mehdinikzad68/lumi-releases/releases/download/v1.9.6/app-personal-release-notesmic-20261125.apk",
+  "sha256": "0dd8fa3c6eb535741089c0386f7e24902a8875e540d3d3719681df6280aef206",
   "sizeBytes": 125551967,
-  "notesEn": "Presence redesign: full-screen conversation, a soft top scrim, and Lumi's avatar docks to a status pill while you chat. The drawer's New-session button is now warm orange.",
-  "notesFa": "بازطراحی حضور لومی: گفت‌وگوی تمام‌صفحه، سایه‌ی نرم بالای پنل، و چسبیدن آواتار لومی به کپسول وضعیت هنگام گفت‌وگو. دکمه‌ی سشن جدید در منو هم نارنجی شد.",
-  "publishedAt": "2026-11-25T11:42:55Z"
+  "notesEn": "Notes microphone redesigned: a floating button, orange at rest and fully red with a gentle pulse and ripple while recording. Fixed: the panel now follows recordings live so a take can always be stopped or discarded, and tapping the mic without permission no longer crashes — the system permission dialog appears instead.",
+  "notesFa": "میکروفون یادداشت‌ها بازطراحی شد: دکمه‌ای شناور که در حالت عادی نارنجی است و هنگام ضبط کاملاً قرمز می‌شود و ضربان و موج ملایمی دارد. رفع اشکال: پنل حالا ضبط را زنده دنبال می‌کند تا هر ضبطی همیشه قابل توقف یا حذف باشد، و لمس میکروفون بدون مجوز دیگر برنامه را نمی‌بندد؛ به‌جای آن دیالوگ مجوز سیستم نمایش داده می‌شود.",
+  "publishedAt": "2026-11-25T15:53:56Z"
 }
