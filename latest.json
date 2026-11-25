@@ -1,11 +1,11 @@
 {
-  "versionCode": 35,
-  "versionName": "1.9.8",
-  "apkFileName": "app-personal-release-voicecheck-20261125.apk",
-  "apkUrl": "https://github.com/mehdinikzad68/lumi-releases/releases/download/v1.9.8/app-personal-release-voicecheck-20261125.apk",
-  "sha256": "1cfaebca2b7775f6347cf725e7d560670bfb2779d9936942608c4ad61db67d4d",
-  "sizeBytes": 125579255,
-  "notesEn": "Voice model checks in AI settings: a Check button for each voice provider — Deepgram (transcription), Gemini Live (voice) and the local Vosk wake-word model — mirroring the brain-model check. Each check sends one tiny metadata request: no audio is sent, no transcription runs and no live session is opened; the Vosk check runs fully on-device. Results show the provider active with its latency, or the exact reason it is not.",
-  "notesFa": "بررسی مدل‌های صوتی در تنظیمات هوش مصنوعی: برای هر ارائه‌دهندهٔ صوتی یک دکمهٔ «بررسی» — دیپ‌گرام (رونویسی)، جمینای لایو (صدا) و مدل محلی وُسک (واژهٔ بیدارباش) — همانند بررسی مدل مغز. هر بررسی فقط یک درخواست کوچک فراداده می‌فرستد: هیچ صوتی ارسال نمی‌شود، هیچ رونویسی‌ای اجرا نمی‌شود و هیچ نشست زنده‌ای باز نمی‌شود؛ بررسی وُسک کاملاً روی خود دستگاه انجام می‌شود. نتیجه، فعال بودن ارائه‌دهنده همراه با زمان پاسخ را نشان می‌دهد یا دلیل دقیق فعال نبودن را.",
-  "publishedAt": "2026-11-25T18:07:55Z"
+    "versionCode":  36,
+    "versionName":  "1.9.9",
+    "apkFileName":  "app-personal-release-relay-20261125.apk",
+    "apkUrl":  "https://github.com/mehdinikzad68/lumi-releases/releases/download/v1.9.9/app-personal-release-relay-20261125.apk",
+    "sha256":  "980F6FE243230DA33CE2B1BDF0D96FF0EAF9029382BBE3E4FE27794494C282B3",
+    "sizeBytes":  125582007,
+    "notesEn":  "Live execution mode: in Voice \u0026 models you can now choose who executes commands in Gemini Live — the Live model itself (the current behavior), or your brain model. In brain mode the Live model only listens and speaks: your chosen brain model decides and runs the tools, exactly like in text chat, and its answer is spoken back through the Live session. The two model slots stay independent — the Live model and the brain model can be the same or different, and you can switch at any time. This build also includes a read-only audit of the Live setup message against the current gemini-3.8-live requirements (no changes were needed) and confirms the Deepgram Live think stage already follows your chosen brain model.",
+    "notesFa":  "حالت اجرای لایو: حالا در بخش «صدا و مدل‌ها» می‌توانید انتخاب کنید در لایوِ جمینای چه کسی فرمان‌ها را اجرا کند — خود مدل لایو (رفتار فعلی)، یا مدل مغز. در حالت مغز، مدل لایو فقط می‌شنود و صحبت می‌کند: مدل مغزی که انتخاب کرده‌اید تصمیم می‌گیرد و ابزارها را اجرا می‌کند، دقیقاً مثل گفت‌وگوی متنی، و پاسخش از طریق همان نشست لایو به‌صورت گفتاری پخش می‌شود. دو جایگاه مدل مستقل می‌مانند — مدل لایو و مدل مغز می‌توانند یکی باشند یا متفاوت، و هر وقت بخواهید قابل تعویض‌اند. این نسخه همچنین شامل بازبینی فقط‌خواندنی پیام راه‌اندازی لایو در برابر الزامات فعلی مدل gemini-3.8-live است (نیازی به تغییری نبود) و تأیید می‌کند که مرحلهٔ فکرِ لایوِ دیپ‌گرام هم‌اکنون از مدل مغز انتخابی شما پیروی می‌کند.",
+    "publishedAt":  "2026-11-25T20:29:00Z"
 }
