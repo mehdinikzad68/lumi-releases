@@ -1,11 +1,11 @@
 {
-    "versionCode":  36,
-    "versionName":  "1.9.9",
-    "apkFileName":  "app-personal-release-relay-20261125.apk",
-    "apkUrl":  "https://github.com/mehdinikzad68/lumi-releases/releases/download/v1.9.9/app-personal-release-relay-20261125.apk",
-    "sha256":  "980F6FE243230DA33CE2B1BDF0D96FF0EAF9029382BBE3E4FE27794494C282B3",
-    "sizeBytes":  125582007,
-    "notesEn":  "Live execution mode: in Voice \u0026 models you can now choose who executes commands in Gemini Live — the Live model itself (the current behavior), or your brain model. In brain mode the Live model only listens and speaks: your chosen brain model decides and runs the tools, exactly like in text chat, and its answer is spoken back through the Live session. The two model slots stay independent — the Live model and the brain model can be the same or different, and you can switch at any time. This build also includes a read-only audit of the Live setup message against the current gemini-3.8-live requirements (no changes were needed) and confirms the Deepgram Live think stage already follows your chosen brain model.",
-    "notesFa":  "حالت اجرای لایو: حالا در بخش «صدا و مدل‌ها» می‌توانید انتخاب کنید در لایوِ جمینای چه کسی فرمان‌ها را اجرا کند — خود مدل لایو (رفتار فعلی)، یا مدل مغز. در حالت مغز، مدل لایو فقط می‌شنود و صحبت می‌کند: مدل مغزی که انتخاب کرده‌اید تصمیم می‌گیرد و ابزارها را اجرا می‌کند، دقیقاً مثل گفت‌وگوی متنی، و پاسخش از طریق همان نشست لایو به‌صورت گفتاری پخش می‌شود. دو جایگاه مدل مستقل می‌مانند — مدل لایو و مدل مغز می‌توانند یکی باشند یا متفاوت، و هر وقت بخواهید قابل تعویض‌اند. این نسخه همچنین شامل بازبینی فقط‌خواندنی پیام راه‌اندازی لایو در برابر الزامات فعلی مدل gemini-3.8-live است (نیازی به تغییری نبود) و تأیید می‌کند که مرحلهٔ فکرِ لایوِ دیپ‌گرام هم‌اکنون از مدل مغز انتخابی شما پیروی می‌کند.",
-    "publishedAt":  "2026-11-25T20:29:00Z"
+    "versionCode": 37,
+    "versionName": "1.9.10",
+    "apkFileName": "app-personal-release-providers-20261125.apk",
+    "apkUrl": "https://github.com/mehdinikzad68/lumi-releases/releases/download/v1.9.10/app-personal-release-providers-20261125.apk",
+    "sha256": "1897CE0E323ACDD2CFEF3C4788E659625FFB09EDE37AF4E49BBD02CCB0A112DB",
+    "sizeBytes": 125580631,
+    "notesEn": "Provider list, reordered as you asked: Radium is now the first provider, with hal-1.0 preselected as its default model — when you fetch Radium's models, hal-1.0 is already chosen in the picker (your own tap still makes the final assignment, and any model you picked before always wins). The full order is now: Radium, Apinex, Google AI Studio, CoArena, OmniRoute, OpenRouter, GapGPT, AvalAI, and NVIDIA NIM last. Inception (Mercury), VyceAI and Antigravity are removed — anything you need later can come back through Custom. Providers you already saved are unaffected: they are independent snapshots and keep working, including their keys and model assignments.",
+    "notesFa": "فهرست پرووایدرها همان‌طور که خواسته بودید مرتب شد: Radium حالا اولین پرووایدر است و مدل hal-1.0 به‌عنوان مدل پیش‌فرض آن از پیش انتخاب شده است — وقتی مدل‌های Radium را دریافت می‌کنید، hal-1.0 در فهرست انتخاب مدل آمادهٔ انتخاب است (ثبت نهایی همچنان با لمس خودتان انجام می‌شود و مدلی که قبلاً برای جایگاهی انتخاب کرده‌اید همیشه اولویت دارد). ترتیب کامل: Radium، Apinex، Google AI Studio، CoArena، OmniRoute، OpenRouter، GapGPT، AvalAI و در انتها NVIDIA NIM. پرووایدرهای Inception (Mercury)، VyceAI و Antigravity حذف شدند — هر پرووایدری که بعداً لازم داشته باشید از بخش Custom برمی‌گردد. پرووایدرهایی که قبلاً ذخیره کرده‌اید دست‌نخورده می‌مانند: آن‌ها نسخه‌های مستقلی هستند و با کلید و مدل انتخابی‌شان مثل قبل کار می‌کنند.",
+    "publishedAt": "2026-11-25T20:13:24Z"
 }
