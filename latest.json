@@ -1,11 +1,11 @@
 {
-    "versionCode":  38,
-    "versionName":  "1.9.11",
-    "apkFileName":  "app-personal-release-queue-20261125.apk",
-    "apkUrl":  "https://github.com/mehdinikzad68/lumi-releases/releases/download/v1.9.11/app-personal-release-queue-20261125.apk",
-    "sha256":  "357D0A3FC654F703F49DCBC6F5645C48E3D633362EFD7801932D015B3106E1C8",
-    "sizeBytes":  125601323,
-    "notesEn":  "Talking over the brain no longer cancels it. In Live with the brain model executing, what you say while the brain is working now waits in a queue and runs right after it, in order - like talking with Vision. The new instruction appears in the chat at once, marked as queued, and the Lumi pill shows how many are waiting. Saying \"wait\" pauses the work where it stands - nothing is cancelled - and \"continue\" resumes it from the same point; saying \"stop\" cancels the work and clears the queue. Prefer the old behaviour? Voice \u0026 models, \"If you speak while the brain is working\", \"Interrupt at once\". The queue holds up to five instructions.",
-    "notesFa":  "دیگر حرف‌زدن وسط کار مغز، آن را لغو نمی‌کند. در لایو، وقتی مدل مغز در حال اجراست، حرفی که وسط کار بزنی در صف می‌ماند و بلافاصله بعد از آن، به‌ترتیب اجرا می‌شود — مثل گفت‌وگو با ویژن. دستور جدید همان لحظه در گفت‌وگو با برچسب «در صف» دیده می‌شود و نشان لومی تعداد منتظرها را نشان می‌دهد. «صبر کن» کار را همان‌جا نگه می‌دارد — هیچ‌چیز لغو نمی‌شود — و «ادامه بده» آن را از همان نقطه ادامه می‌دهد؛ «توقف کن» کار را لغو می‌کند و صف را خالی می‌کند. رفتار قبلی را ترجیح می‌دهی؟ بخش «صدا و مدل‌ها»، گزینهٔ «وقتی وسط کار مغز حرف می‌زنی»، «فوراً قطع کن». صف تا پنج دستور را نگه می‌دارد.",
-    "publishedAt":  "2026-11-25T21:12:42Z"
+    "versionCode":  39,
+    "versionName":  "1.9.12",
+    "apkFileName":  "app-personal-release-slots-20261126.apk",
+    "apkUrl":  "https://github.com/mehdinikzad68/lumi-releases/releases/download/v1.9.12/app-personal-release-slots-20261126.apk",
+    "sha256":  "42C4407E33EA4CCD713BD083AD5AB30FEA0C79154470E7822C77083850932707",
+    "sizeBytes":  125603507,
+    "notesEn":  "One brain, one pick. The Vision, Screen and Text slots now follow your Agent (brain) model selection automatically - change the brain once and they all follow. A slot that needs something different can still be given its own model as an override, and reset to follow the Agent again whenever you like. The Live session model keeps its own pick: a Live session can only run on a Live-capable model.",
+    "notesFa":  "یک مغز، یک انتخاب. از این پس اسلات‌های بینایی، صفحه و متن به‌صورت خودکار از انتخاب مدل ایجنت (مغز) پیروی می‌کنند؛ مغز را یک‌بار عوض کنید و همه دنبالش می‌آیند. اگر اسلاتی به مدل دیگری نیاز داشت، همچنان می‌توانید برایش مدل جداگانه‌ای به‌عنوان جایگزین تعیین کنید و هر وقت خواستید دوباره به حالت پیروی از ایجنت برگردانیدش. مدل سشن لایو انتخاب خودش را نگه می‌دارد: سشن لایو فقط روی مدلی با قابلیت لایو اجرا می‌شود.",
+    "publishedAt":  "2026-11-26T10:07:48Z"
 }
