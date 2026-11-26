@@ -2,7 +2,7 @@
 
 > 🇮🇷 راهنمای فارسی: [USER-GUIDE-FA.md](USER-GUIDE-FA.md)
 
-*This guide describes Lumi as of its first public release (v1.8.2).*
+*This guide describes Lumi as of v1.9.14.*
 
 ## What is Lumi
 
@@ -41,12 +41,14 @@ rejected. Only ever install Lumi from this repository's Releases.
 
 ## First run & permissions
 
-The setup wizard has three steps:
+The setup wizard has five steps:
 
 1. **Welcome** — what Lumi is, and the terms to accept.
-2. **Permissions** — five grants, each explained on screen.
+2. **Permissions** — the grants Lumi needs, each explained on screen.
 3. **Provider** — add an AI provider key now, or skip and add it later
    (see the next section).
+4. **Voice** — pick the live transport and voice options.
+5. **Done** — a summary, and you are in.
 
 Why each permission is needed:
 
@@ -63,11 +65,24 @@ loses a permission it depends on, Lumi will tell you instead of failing quietly.
 
 ## Add a provider key
 
-1. Open the **More** tab → **AI providers**.
+1. Open **Settings → AI**.
 2. Pick a provider and paste your API key.
 3. Save. The key is stored **only in the Android Keystore** on your phone —
    it is never written to a file, a log, or anywhere else, and it is sent only
    to that provider when you use it.
+
+**Providers and model slots.** The provider list is a ready-made
+catalogue (in the personal build it starts with **Radium**, whose
+`hal-1.0` model is pre-selected for you the first time you fetch its
+model list — your own explicit pick always wins). For each role
+(**Agent** — the brain, **Vision**, **Screen**, **Text**, **Live**) you
+choose a provider profile and a model; a role can hold a small
+**rotation pool** that Lumi walks on rate limits or failures. Since
+v1.9.12 the Vision, Screen and Text roles **follow the Agent pick by
+default** — set the brain once and they come along; you can still give
+any of them its own pick, or reset it back to following. Live is the
+one exception: it keeps its own pick, because a live session needs a
+live-capable model.
 
 What needs a key:
 
@@ -105,6 +120,11 @@ The **Agent** tab is your home base.
   - **Clear view + memory** — also drops that context, a true fresh start
     for this session.
   - Clearing **never** touches your notes, tasks, or durable Memory.
+- **Long tasks:** a single command runs in segments of up to 12
+  action rounds; when a segment ends and work remains, Lumi
+  **continues automatically** (up to 4 continuations, 100 executed
+  steps in total) and marks each continuation in the run report — you
+  never have to say "continue" to get a long job finished.
 - **Back key:** Back from any tab returns to the Agent (home) tab. On the
   Agent tab, Back first closes anything open (compose box, session list),
   and then exits the app. Tapping a tab always opens that section's first
@@ -115,6 +135,33 @@ The **Agent** tab is your home base.
 Tap the **Live** disc and just talk — Lumi listens and answers out loud, in
 Persian or English. The in-session bar lets you **mute**, toggle **captions
 (CC)**, and **end** the conversation.
+
+**How Live runs.** Under **Settings → Voice & models** you choose the
+**Live execution mode**:
+
+- **Live model** (default) — the live model itself hears you, speaks,
+  and acts, in one session.
+- **Brain (relay)** — the live model is only the ears and the voice;
+  your **Agent brain** does the thinking and the acting, and its reply
+  is spoken back to you word for word.
+
+In relay mode you can talk **while Lumi is working**, and what you say
+is handled the way a good assistant would:
+
+- A new instruction **waits in a queue** and runs right after the
+  current one (this is the default; you can switch to *interrupt
+  immediately* in the same settings screen).
+- **"Wait"** — or **«صبر کن»** — **pauses** the work exactly where it
+  is; **"Continue"** resumes it from the same point.
+- **"Stop"** — or **«توقف کن»** / **«لغو کن»** — **stops** the work
+  completely. A sentence that starts with a wait word and ends with a
+  stop word (for example *"wait, cancel that"*) counts as a stop.
+- Thinking out loud — *"let me think"*, **«دارم فکر می‌کنم»** — is
+  understood as thinking, not as an instruction: Lumi stays quiet and
+  waits for you.
+- While the relay is idle, the same words are simply conversation —
+  *"cancel my subscription"* is an instruction for the brain, not a
+  stop command.
 
 Three voice commands work inside a live conversation:
 
@@ -201,7 +248,7 @@ appears at the bottom of the app:
 
 ## Memory & role
 
-Open **More → Memory & role**.
+Open **Settings → Memory & role**.
 
 - **Memory** is the list of durable facts Lumi should always know — for
   example *"The owner's favorite tea is cardamom tea."* Add a fact in the
@@ -247,6 +294,12 @@ carries the same owner signature (see *Install*).
   changing things — stop and ask for your explicit confirmation first.
 - **Audit log:** Lumi keeps an on-device log of what the agent did, which
   you can review under **Diagnostics → Logs**.
+- **Desktop bridge pairing:** if you pair Lumi with the desktop bridge
+  (Settings → Pairing), the address matters: `wss://` is accepted
+  anywhere; plain `ws://` is accepted **only** for this device or your
+  Tailscale network and shows an "unencrypted connection" warning —
+  a public `ws://` address is refused, because your pairing token
+  would travel unencrypted.
 - **Kill switch:** the Guard section has an emergency stop that halts the
   agent immediately; while stopped, a red banner in the Agent panel says so.
 
@@ -268,7 +321,7 @@ doesn't match — reinstall from this repository's Releases page.
 
 **A note is stuck on "Awaiting transcription"**
 Transcription needs an internet connection and a saved **Deepgram key**
-(More → AI providers). Local-only notes never enter the queue — that's by
+(Settings → AI). Local-only notes never enter the queue — that's by
 design.
 
 **A transcript is in the wrong language**
@@ -280,8 +333,8 @@ transcript, so a bad raw transcript means the audio itself was unclear
 
 **Live voice won't start**
 Live voice needs a live-capable provider key (Gemini or Deepgram) saved in
-Settings → AI providers, the matching **Live transport** selected under
-Settings → AI, and a working internet connection.
+Settings → AI, the matching **Live transport** selected there too, and a
+working internet connection.
 
 **Lumi forgot our conversation after I cleared the chat**
 That's the difference between the two clear options: **Clear view** keeps
