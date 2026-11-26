@@ -1,11 +1,11 @@
-{
-    "versionCode":  39,
-    "versionName":  "1.9.12",
-    "apkFileName":  "app-personal-release-slots-20261126.apk",
-    "apkUrl":  "https://github.com/mehdinikzad68/lumi-releases/releases/download/v1.9.12/app-personal-release-slots-20261126.apk",
-    "sha256":  "42C4407E33EA4CCD713BD083AD5AB30FEA0C79154470E7822C77083850932707",
+﻿{
+    "versionCode":  40,
+    "versionName":  "1.9.13",
+    "apkFileName":  "app-personal-release-stepcap-20261126.apk",
+    "apkUrl":  "https://github.com/mehdinikzad68/lumi-releases/releases/download/v1.9.13/app-personal-release-stepcap-20261126.apk",
+    "sha256":  "BAF429E6E750993B6705FB836D6C182B269243AD5A8D26F65EE5F900F7E2D09F",
     "sizeBytes":  125603507,
-    "notesEn":  "One brain, one pick. The Vision, Screen and Text slots now follow your Agent (brain) model selection automatically - change the brain once and they all follow. A slot that needs something different can still be given its own model as an override, and reset to follow the Agent again whenever you like. The Live session model keeps its own pick: a Live session can only run on a Live-capable model.",
-    "notesFa":  "یک مغز، یک انتخاب. از این پس اسلات‌های بینایی، صفحه و متن به‌صورت خودکار از انتخاب مدل ایجنت (مغز) پیروی می‌کنند؛ مغز را یک‌بار عوض کنید و همه دنبالش می‌آیند. اگر اسلاتی به مدل دیگری نیاز داشت، همچنان می‌توانید برایش مدل جداگانه‌ای به‌عنوان جایگزین تعیین کنید و هر وقت خواستید دوباره به حالت پیروی از ایجنت برگردانیدش. مدل سشن لایو انتخاب خودش را نگه می‌دارد: سشن لایو فقط روی مدلی با قابلیت لایو اجرا می‌شود.",
-    "publishedAt":  "2026-11-26T10:07:48Z"
+    "notesEn":  "Automatic continuation for long tasks. When the brain reaches its per-segment step budget (12 action rounds) without finishing, the run no longer stops mid-task: it checkpoints and continues automatically in a fresh segment, up to 4 continuations and 100 executed steps per command. The continuation is shown honestly in the run log as an automatic system continuation, and the model is told its budget and the budget remaining at every checkpoint. A tool call repeated with identical input is detected as a loop and stopped with an honest report instead of burning the budget. Stop still cancels the whole command instantly, including any continuation, and pausing a run keeps it paused across segments.",
+    "notesFa":  "ادامه خودکار برای کارهای طولانی. وقتی مغز بدون تمام‌کردن کار به سقف قدم بخش جاری (۱۲ دور عملیاتی) می‌رسد، اجرا دیگر وسط کار متوقف نمی‌شود: وضعیت ذخیره می‌شود و به‌صورت خودکار در بخشی تازه ادامه پیدا می‌کند، تا ۴ ادامه و ۱۰۰ قدم اجراشده برای هر فرمان. این ادامه در گزارش اجرا به‌صورت صادقانه با عنوان ادامه خودکار سیستم نمایش داده می‌شود و مدل در هر نقطه ذخیره، از بودجه خود و بودجه باقی‌مانده آگاه است. تکرار یک فراخوانی ابزار با ورودی یکسان به‌عنوان حلقه تشخیص داده و با گزارشی صادقانه متوقف می‌شود تا بودجه هدر نرود. دکمه توقف همچنان کل فرمان را فوراً لغو می‌کند، از جمله هر ادامه‌ای، و مکث یک اجرا در میان بخش‌ها نیز حفظ می‌شود.",
+    "publishedAt":  "2026-11-26T10:45:23Z"
 }
