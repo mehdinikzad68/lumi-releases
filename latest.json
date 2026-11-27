@@ -1,11 +1,11 @@
 {
-    "versionCode": 43,
-    "versionName": "1.9.16",
-    "apkFileName": "app-personal-release-design1916-20261127.apk",
-    "apkUrl": "https://github.com/mehdinikzad68/lumi-releases/releases/download/v1.9.16/app-personal-release-design1916-20261127.apk",
-    "sha256": "F00D3F646FA6CAE9A70474919CACF1BB132128C485AC490A982F7B4DB5CF739D",
-    "sizeBytes": 78419275,
-    "notesEn": "Lumi 1.9.16 - design round. (A) The Agent conversation page now has a real top shadow: a gradient in the page background colour, solid at the top edge and melting downward, so text scrolling underneath fades before it reaches the floating buttons - in dark and light themes alike. (B1) The avatar behaves like the Vision chat presence: centred at rest, docked to a pill at the top-centre during a conversation, with a live status word - now including Working while the standalone agent runs a command. (B2) A new capabilities section in the Agent panel: three calm groups (Conversation / On your phone / Remember and organise) of icon + title + one-line entries, in English and Persian.",
-    "notesFa": "لومی ۱٫۹٫۱۶ - دور طراحی. (الف) صفحه گفت‌وگوی ایجنت حالا سایه بالای واقعی دارد: گرادیانی از رنگ پس‌زمینه خود صفحه که در لبه بالا پررنگ است و رو به پایین محو می‌شود، تا متن پیمایش‌شده پیش از رسیدن به دکمه‌های شناور محو شود — در هر دو تم تیره و روشن. (ب۱) آواتار مانند حضور خود ویژن در صفحه گفت‌وگویش رفتار می‌کند: در استراحت در مرکز، و هنگام گفت‌وگو در قالب یک قرص در بالای مرکز، با کلمه وضعیت زنده — و حالا شامل «در حال کار» هنگام اجرای دستور توسط ایجنت مستقل. (ب۲) بخش تازه «لومی چه کارهایی می‌تواند بکند» در پنل ایجنت: سه گروه آرام (گفت‌وگو / روی گوشی شما / یادآوری و سازمان‌دهی) از مدخل‌های آیکون + عنوان + یک خط، به انگلیسی و فارسی.",
-    "publishedAt": "2026-11-27T10:59:47Z"
+    "versionCode": 44,
+    "versionName": "1.9.17",
+    "apkFileName": "app-personal-release-wizardmic-20261127.apk",
+    "apkUrl": "https://github.com/mehdinikzad68/lumi-releases/releases/download/v1.9.17/app-personal-release-wizardmic-20261127.apk",
+    "sha256": "F02F8E09BEEE9764CCC7F0D8DD9544B62AA0919654E0E4D3A87FEF719781AAD0",
+    "sizeBytes": 78420603,
+    "notesEn": "Lumi 1.9.17 - wizard fix. The setup wizard's first-command step (Step 4) could sit on 'The wake engine is starting...' forever: the big microphone disc was a picture, not a button, and if the wake engine failed to start (for example its voice model could not be prepared) nothing ever told the step. Now the disc is a real control - tapping it retries the engine start, its halo pulses while the engine starts, and if the engine reports a fatal error or has not started within 30 seconds, the step shows an honest failure message with a Try again button instead of spinning forever. Fatal wake-engine errors are now published to the app's health state, so the Status screen shows them too. Skipping the step still completes setup exactly as before.",
+    "notesFa": "لومی ۱٫۹٫۱۷ - اصلاح ویزارد. گام «اولین فرمان» در ویزارد راه‌اندازی (گام ۴) می‌توانست برای همیشه روی «موتور بیداری در حال شروع است…» بماند: دایرهٔ بزرگ میکروفون فقط یک تصویر بود، نه دکمه، و اگر موتور بیداری شروع نمی‌شد (مثلاً مدل صوتی آن آماده نمی‌شد) هیچ‌چیز این گام را باخبر نمی‌کرد. حالا آن دایره یک کنترل واقعی است؛ لمس آن شروع موتور را دوباره تلاش می‌کند، هاله‌اش هنگام شروع موتور می‌تپد، و اگر موتور خطای جدی گزارش کند یا ظرف ۳۰ ثانیه شروع نشود، گام به‌جای چرخیدن بی‌پایان، پیام خطای صادقانه‌ای با دکمهٔ «تلاش دوباره» نشان می‌دهد. خطاهای جدی موتور بیداری حالا در وضعیت سلامت برنامه نیز منتشر می‌شوند تا صفحهٔ وضعیت هم آن‌ها را نشان دهد. رد کردن این گام، راه‌اندازی را دقیقاً مانند قبل کامل می‌کند.",
+    "publishedAt": "2026-11-27T13:40:08Z"
 }
