@@ -1,11 +1,11 @@
 {
-    "versionCode": 44,
-    "versionName": "1.9.17",
-    "apkFileName": "app-personal-release-wizardmic-20261127.apk",
-    "apkUrl": "https://github.com/mehdinikzad68/lumi-releases/releases/download/v1.9.17/app-personal-release-wizardmic-20261127.apk",
-    "sha256": "F02F8E09BEEE9764CCC7F0D8DD9544B62AA0919654E0E4D3A87FEF719781AAD0",
-    "sizeBytes": 78420603,
-    "notesEn": "Lumi 1.9.17 - wizard fix. The setup wizard's first-command step (Step 4) could sit on 'The wake engine is starting...' forever: the big microphone disc was a picture, not a button, and if the wake engine failed to start (for example its voice model could not be prepared) nothing ever told the step. Now the disc is a real control - tapping it retries the engine start, its halo pulses while the engine starts, and if the engine reports a fatal error or has not started within 30 seconds, the step shows an honest failure message with a Try again button instead of spinning forever. Fatal wake-engine errors are now published to the app's health state, so the Status screen shows them too. Skipping the step still completes setup exactly as before.",
-    "notesFa": "لومی ۱٫۹٫۱۷ - اصلاح ویزارد. گام «اولین فرمان» در ویزارد راه‌اندازی (گام ۴) می‌توانست برای همیشه روی «موتور بیداری در حال شروع است…» بماند: دایرهٔ بزرگ میکروفون فقط یک تصویر بود، نه دکمه، و اگر موتور بیداری شروع نمی‌شد (مثلاً مدل صوتی آن آماده نمی‌شد) هیچ‌چیز این گام را باخبر نمی‌کرد. حالا آن دایره یک کنترل واقعی است؛ لمس آن شروع موتور را دوباره تلاش می‌کند، هاله‌اش هنگام شروع موتور می‌تپد، و اگر موتور خطای جدی گزارش کند یا ظرف ۳۰ ثانیه شروع نشود، گام به‌جای چرخیدن بی‌پایان، پیام خطای صادقانه‌ای با دکمهٔ «تلاش دوباره» نشان می‌دهد. خطاهای جدی موتور بیداری حالا در وضعیت سلامت برنامه نیز منتشر می‌شوند تا صفحهٔ وضعیت هم آن‌ها را نشان دهد. رد کردن این گام، راه‌اندازی را دقیقاً مانند قبل کامل می‌کند.",
-    "publishedAt": "2026-11-27T13:40:08Z"
+    "versionCode": 45,
+    "versionName": "1.9.18",
+    "apkFileName": "app-personal-release-updaterux-20261127.apk",
+    "apkUrl": "https://github.com/mehdinikzad68/lumi-releases/releases/download/v1.9.18/app-personal-release-updaterux-20261127.apk",
+    "sha256": "C885D55A4DDC1FC2611AADA3752F1B263FC832030D2CFAB43F132F9960BC56DF",
+    "sizeBytes": 78423259,
+    "notesEn": "Lumi 1.9.18 - updater fixes. The 'Update available' sheet was translucent, so the Settings page showed through it and the release notes were hard to read; the sheet is now fully opaque in both themes, over a proper modal scrim. Tapping Download no longer pins the download inside the sheet: the sheet closes and the download continues in the background, with a system progress notification while it runs and a second notification - tap to install - when the file is downloaded and verified (the SHA-256 verification is unchanged). The App updates row in Settings now mirrors the live state: downloading percentage, verifying, ready to install, or the failure reason with a direct retry.",
+    "notesFa": "لومی ۱.۹.۱۸ - اصلاحات به‌روزرسانی. برگه «به‌روزرسانی موجود است» نیمه‌شفاف بود و صفحه تنظیمات از زیر آن دیده می‌شد و خواندن یادداشت‌های انتشار دشوار بود؛ این برگه اکنون در هر دو تم کاملاً مات است و روی یک پرده مات استاندارد قرار می‌گیرد. با زدن دکمه دانلود، دانلود دیگر داخل برگه نمی‌ماند: برگه بسته می‌شود و دانلود در پس‌زمینه ادامه می‌یابد، هنگام اجرا یک اعلان پیشرفت سیستم نمایش داده می‌شود و وقتی فایل دانلود و راستی‌آزمایی شد (بررسی صحت فایل مانند قبل انجام می‌شود)، اعلان دوم نصب را با یک لمس پیشنهاد می‌کند. ردیف «به‌روزرسانی برنامه» در تنظیمات اکنون وضعیت زنده را نشان می‌دهد: درصد دانلود، در حال راستی‌آزمایی، آماده نصب، یا دلیل خطا همراه با دکمه تلاش دوباره.",
+    "publishedAt": "2026-11-27T15:07:45Z"
 }
