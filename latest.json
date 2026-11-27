@@ -1,11 +1,11 @@
 ﻿{
-    "versionCode":  40,
-    "versionName":  "1.9.13",
-    "apkFileName":  "app-personal-release-stepcap-20261126.apk",
-    "apkUrl":  "https://github.com/mehdinikzad68/lumi-releases/releases/download/v1.9.13/app-personal-release-stepcap-20261126.apk",
-    "sha256":  "BAF429E6E750993B6705FB836D6C182B269243AD5A8D26F65EE5F900F7E2D09F",
-    "sizeBytes":  125603507,
-    "notesEn":  "Automatic continuation for long tasks. When the brain reaches its per-segment step budget (12 action rounds) without finishing, the run no longer stops mid-task: it checkpoints and continues automatically in a fresh segment, up to 4 continuations and 100 executed steps per command. The continuation is shown honestly in the run log as an automatic system continuation, and the model is told its budget and the budget remaining at every checkpoint. A tool call repeated with identical input is detected as a loop and stopped with an honest report instead of burning the budget. Stop still cancels the whole command instantly, including any continuation, and pausing a run keeps it paused across segments.",
-    "notesFa":  "ادامه خودکار برای کارهای طولانی. وقتی مغز بدون تمام‌کردن کار به سقف قدم بخش جاری (۱۲ دور عملیاتی) می‌رسد، اجرا دیگر وسط کار متوقف نمی‌شود: وضعیت ذخیره می‌شود و به‌صورت خودکار در بخشی تازه ادامه پیدا می‌کند، تا ۴ ادامه و ۱۰۰ قدم اجراشده برای هر فرمان. این ادامه در گزارش اجرا به‌صورت صادقانه با عنوان ادامه خودکار سیستم نمایش داده می‌شود و مدل در هر نقطه ذخیره، از بودجه خود و بودجه باقی‌مانده آگاه است. تکرار یک فراخوانی ابزار با ورودی یکسان به‌عنوان حلقه تشخیص داده و با گزارشی صادقانه متوقف می‌شود تا بودجه هدر نرود. دکمه توقف همچنان کل فرمان را فوراً لغو می‌کند، از جمله هر ادامه‌ای، و مکث یک اجرا در میان بخش‌ها نیز حفظ می‌شود.",
-    "publishedAt":  "2026-11-26T10:45:23Z"
+    "versionCode":  41,
+    "versionName":  "1.9.14",
+    "apkFileName":  "app-personal-release-fixround-20261126.apk",
+    "apkUrl":  "https://github.com/mehdinikzad68/lumi-releases/releases/download/v1.9.14/app-personal-release-fixround-20261126.apk",
+    "sha256":  "47ED48089A40CADAD6C765896BA873969949056B5AC57EFAD22CD12F237AA961",
+    "sizeBytes":  78393395,
+    "notesEn":  "Lumi 1.9.14 - fix and quality round. The full fix list from the independent pre-install evaluation: relay speech classification fixed (a wait word followed by a stop word now stops the run; thinking phrases stay silent; stop words reach the brain as ordinary instructions while the relay is idle), one shared brain prompt for the agent and Live, bridge URL safety (public ws:// is rejected; local and Tailscale addresses get a cleartext warning), completed Persian translation with Persian digits, larger touch targets, per-session chat storage with a safe one-time migration, a smaller arm64-only personal build, and internal cleanups. No new features.",
+    "notesFa":  "لومی 1.9.14 — راند اصلاح و کیفیت. کل فهرست اصلاحات ارزیابی مستقل پیش از نصب: اصلاح طبقه‌بندی گفته در حالت رله (کلمه انتظار که با کلمه توقف تمام شود، اجرا را متوقف می‌کند؛ عبارت‌های «دارم فکر می‌کنم» سکوت می‌مانند؛ کلمه توقف وقتی رله بیکار است به‌مثابه دستور عادی به مغز می‌رسد)، پرامپت یگانه مغز برای ایجنت و لایو، ایمنی نشانی بریج (نشانی ws عمومی رد می‌شود و برای نشانی‌های لوکال و Tailscale هشدار متن آشکار نشان داده می‌شود)، تکمیل ترجمه فارسی همراه با ارقام فارسی، اهداف لمسی بزرگ‌تر، ذخیره‌سازی جدا برای هر نشست چت با مهاجرت امن یک‌باره، بیلد شخصی کوچک‌تر فقط arm64، و پاک‌سازی‌های داخلی. قابلیت تازه‌ای اضافه نشده است.",
+    "publishedAt":  "2026-11-27T08:25:15Z"
 }
