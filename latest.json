@@ -1,11 +1,11 @@
 {
-    "versionCode": 45,
-    "versionName": "1.9.18",
-    "apkFileName": "app-personal-release-updaterux-20261127.apk",
-    "apkUrl": "https://github.com/mehdinikzad68/lumi-releases/releases/download/v1.9.18/app-personal-release-updaterux-20261127.apk",
-    "sha256": "C885D55A4DDC1FC2611AADA3752F1B263FC832030D2CFAB43F132F9960BC56DF",
+    "versionCode": 46,
+    "versionName": "1.9.19",
+    "apkFileName": "app-personal-release-speechmd-20261127.apk",
+    "apkUrl": "https://github.com/mehdinikzad68/lumi-releases/releases/download/v1.9.19/app-personal-release-speechmd-20261127.apk",
+    "sha256": "BF715EBB3B935AED579F6E2B6DD6A42F2997CF3250319928D841BEFE4F0CDA70",
     "sizeBytes": 78423259,
-    "notesEn": "Lumi 1.9.18 - updater fixes. The 'Update available' sheet was translucent, so the Settings page showed through it and the release notes were hard to read; the sheet is now fully opaque in both themes, over a proper modal scrim. Tapping Download no longer pins the download inside the sheet: the sheet closes and the download continues in the background, with a system progress notification while it runs and a second notification - tap to install - when the file is downloaded and verified (the SHA-256 verification is unchanged). The App updates row in Settings now mirrors the live state: downloading percentage, verifying, ready to install, or the failure reason with a direct retry.",
-    "notesFa": "لومی ۱.۹.۱۸ - اصلاحات به‌روزرسانی. برگه «به‌روزرسانی موجود است» نیمه‌شفاف بود و صفحه تنظیمات از زیر آن دیده می‌شد و خواندن یادداشت‌های انتشار دشوار بود؛ این برگه اکنون در هر دو تم کاملاً مات است و روی یک پرده مات استاندارد قرار می‌گیرد. با زدن دکمه دانلود، دانلود دیگر داخل برگه نمی‌ماند: برگه بسته می‌شود و دانلود در پس‌زمینه ادامه می‌یابد، هنگام اجرا یک اعلان پیشرفت سیستم نمایش داده می‌شود و وقتی فایل دانلود و راستی‌آزمایی شد (بررسی صحت فایل مانند قبل انجام می‌شود)، اعلان دوم نصب را با یک لمس پیشنهاد می‌کند. ردیف «به‌روزرسانی برنامه» در تنظیمات اکنون وضعیت زنده را نشان می‌دهد: درصد دانلود، در حال راستی‌آزمایی، آماده نصب، یا دلیل خطا همراه با دکمه تلاش دوباره.",
-    "publishedAt": "2026-11-27T15:07:45Z"
+    "notesEn": "Lumi 1.9.19 - speech fixes. Spoken replies no longer read Markdown aloud: bold, headings, links, lists and tables are converted to natural spoken text before speaking (the screen still shows the full formatted answer). Long replies are no longer cut off part-way: the spoken-length limit that silently truncated answers is gone - a reply is now spoken in full, sentence by sentence, and a new announcement no longer interrupts one that is still playing. This applies to replies spoken on the phone and to replies relayed through Live.",
+    "notesFa": "لومی ۱.۹.۱۹ - اصلاحات گفتار. پاسخ‌های گفتاری دیگر نشانه‌های قالب‌بندی را با صدای بلند نمی‌خوانند: متن پررنگ، عنوان‌ها، پیوندها، فهرست‌ها و جدول‌ها پیش از گفتن به متن گفتاری طبیعی تبدیل می‌شوند (نمایش روی صفحه همچنان کامل و قالب‌بندی‌شده است). پاسخ‌های طولانی دیگر نیمه‌کاره قطع نمی‌شوند: محدودیت طول گفتار که پاسخ را بی‌صدا کوتاه می‌کرد حذف شد؛ هر پاسخ اکنون به‌طور کامل و جمله‌به‌جمله گفته می‌شود و اعلان تازه نیز گفتار در حال پخش را قطع نمی‌کند. این اصلاح هم پاسخ‌هایی را که روی خود گوشی گفته می‌شوند در بر می‌گیرد و هم پاسخ‌های بازپخش‌شده از مسیر Live را.",
+    "publishedAt": "2026-11-27T15:49:38Z"
 }
