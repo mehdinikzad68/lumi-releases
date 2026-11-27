@@ -1,11 +1,11 @@
 {
-    "versionCode": 46,
-    "versionName": "1.9.19",
-    "apkFileName": "app-personal-release-speechmd-20261127.apk",
-    "apkUrl": "https://github.com/mehdinikzad68/lumi-releases/releases/download/v1.9.19/app-personal-release-speechmd-20261127.apk",
-    "sha256": "BF715EBB3B935AED579F6E2B6DD6A42F2997CF3250319928D841BEFE4F0CDA70",
-    "sizeBytes": 78423259,
-    "notesEn": "Lumi 1.9.19 - speech fixes. Spoken replies no longer read Markdown aloud: bold, headings, links, lists and tables are converted to natural spoken text before speaking (the screen still shows the full formatted answer). Long replies are no longer cut off part-way: the spoken-length limit that silently truncated answers is gone - a reply is now spoken in full, sentence by sentence, and a new announcement no longer interrupts one that is still playing. This applies to replies spoken on the phone and to replies relayed through Live.",
-    "notesFa": "لومی ۱.۹.۱۹ - اصلاحات گفتار. پاسخ‌های گفتاری دیگر نشانه‌های قالب‌بندی را با صدای بلند نمی‌خوانند: متن پررنگ، عنوان‌ها، پیوندها، فهرست‌ها و جدول‌ها پیش از گفتن به متن گفتاری طبیعی تبدیل می‌شوند (نمایش روی صفحه همچنان کامل و قالب‌بندی‌شده است). پاسخ‌های طولانی دیگر نیمه‌کاره قطع نمی‌شوند: محدودیت طول گفتار که پاسخ را بی‌صدا کوتاه می‌کرد حذف شد؛ هر پاسخ اکنون به‌طور کامل و جمله‌به‌جمله گفته می‌شود و اعلان تازه نیز گفتار در حال پخش را قطع نمی‌کند. این اصلاح هم پاسخ‌هایی را که روی خود گوشی گفته می‌شوند در بر می‌گیرد و هم پاسخ‌های بازپخش‌شده از مسیر Live را.",
-    "publishedAt": "2026-11-27T15:49:38Z"
+    "versionCode":  47,
+    "versionName":  "1.9.20",
+    "apkFileName":  "app-personal-release-overflowmenu-20261127.apk",
+    "apkUrl":  "https://github.com/mehdinikzad68/lumi-releases/releases/download/v1.9.20/app-personal-release-overflowmenu-20261127.apk",
+    "sha256":  "B701BD529756D170C4AD30EE6DDF07C64FC937CB586D06BBB3275D1B344C21D8",
+    "sizeBytes":  78444679,
+    "notesEn":  "Lumi 1.9.20 - clearer clearing. The conversation header\u0027s old \u0027Clear view + memory\u0027 button is gone. In its place, the 3-dot menu in both conversation headers now offers \u0027Clear chat history\u0027: a real delete of the current conversation\u0027s history - the visible thread, the context the model sees for this conversation, and its stored record (before, clearing only hid it). The session itself stays, empty and ready to continue. Separately, Settings - Memory \u0026 role now has \u0027Clear model memory\u0027: a two-step confirmation that lists exactly what will and will not be erased, then wipes everything Lumi has remembered about you. Your role text, provider keys, settings and chat sessions are not touched by it.",
+    "notesFa":  "لومی ۱.۹.۲۰ - پاک‌کردن شفاف‌تر. دکمه قدیمی پاک‌کردن نما و حافظه از سربرگ گفت‌وگو حذف شد. به‌جای آن، منوی سه‌نقطه در هر دو سربرگ گفت‌وگو گزینه «پاک کردن تاریخچه گفت‌وگو» را دارد: حذف واقعی تاریخچه گفت‌وگوی جاری؛ یعنی نخ نمایان، بافتی که مدل از این گفت‌وگو می‌بیند و سابقه ذخیره‌شده آن (پیش از این، پاک‌کردن فقط آن را پنهان می‌کرد). خود نشست باقی می‌ماند؛ خالی و آماده ادامه. جداگانه، در تنظیمات، بخش «حافظه و نقش» گزینه «پاک کردن حافظه مدل» افزوده شد: تأییدی دومرحله‌ای که دقیقاً می‌گوید چه چیزی پاک می‌شود و چه چیزی پاک نمی‌شود و سپس همه آنچه را لومی درباره شما به خاطر سپرده است پاک می‌کند. متن نقش، کلیدهای ارائه‌دهندگان، تنظیمات و نشست‌های گفت‌وگو با این کار دست نمی‌خورند.",
+    "publishedAt":  "2026-11-27T16:37:04Z"
 }
