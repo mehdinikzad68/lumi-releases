@@ -1,11 +1,11 @@
-﻿{
-    "versionCode":  50,
-    "versionName":  "1.9.23",
-    "apkFileName":  "app-personal-release-avatarfix-20261128.apk",
-    "apkUrl":  "https://github.com/mehdinikzad68/lumi-releases/releases/download/v1.9.23/app-personal-release-avatarfix-20261128.apk",
-    "sha256":  "11007EB029F0D196A574AA110AFFE5A7D906663275738B31A6F1AD95910C7A8F",
-    "sizeBytes":  79284993,
-    "notesEn":  "Lumi 1.9.23 - Avatar display fix, wake word over music, and smarter question routing. The lantern clips and their poster stills now share a single scale rule on every surface, and the Live stage uses the new dark-backdrop clips: no more cream rectangle and no more double/ghost image on the dark stage. While music plays, Lumi often never woke up, because the wake capture ran with no acoustic processing while the music played at full volume; the wake recorder now uses the platform\u0027s echo cancellation and noise suppression (when the hardware offers them), so the phone\u0027s own music can be subtracted from the microphone signal. And asking Lumi something like \u0027why didn\u0027t you hear me while the music was playing\u0027 no longer opens YouTube and searches for the question itself: questions and complaints about Lumi\u0027s own behaviour now go to the conversation, as they should, while genuine media commands (\u0027play the song\u0027, \u0027play the last song\u0027) work exactly as before.",
-    "notesFa":  "لومی ۱.۹.۲۳ - اصلاح نمایش آواتار، بیدارباش هنگام پخش آهنگ، و مسیریابی درست‌تر پرسش‌ها. کلیپ‌های فانوس و عکس‌های همراهشان حالا در همه سطوح از یک قاعده مقیاس واحد پیروی می‌کنند و صحنه لایو از کلیپ‌های جدید با پس‌زمینه تیره استفاده می‌کند؛ دیگر نه مستطیل کرم‌رنگ دیده می‌شود و نه تصویر دوتایی/شبح روی صحنه تیره. هنگام پخش آهنگ، لومی اغلب اصلاً بیدار نمی‌شد، چون ضبط بیدارباش هیچ پردازش صوتی نداشت و آهنگ با صدای کامل پخش می‌شد؛ حالا ضبط‌کننده بیدارباش از حذف پژواک و حذف نویز خود سیستم استفاده می‌کند (هرجا سخت‌افزار پشتیبانی کند) تا صدای آهنگ خود گوشی از سیگنال میکروفون کم شود. و پرسش‌هایی مثل «چرا در حال پخش آهنگ صدای منو نشنیدی» دیگر یوتوب را باز نمی‌کند و خود پرسش را جستجو نمی‌کند؛ پرسش و گلایه درباره رفتار خود لومی حالا به گفت‌وگو می‌رود، همان‌طور که باید، و فرمان‌های واقعی رسانه («آهنگ پخش کن»، «آخرین آهنگ را پلی کن») دقیقاً مثل قبل کار می‌کنند.",
-    "publishedAt":  "2026-11-28T11:11:49Z"
+{
+    "versionCode":  51,
+    "versionName":  "1.9.24",
+    "apkFileName":  "app-personal-release-mediabutton-20261128.apk",
+    "apkUrl":  "https://github.com/mehdinikzad68/lumi-releases/releases/download/v1.9.24/app-personal-release-mediabutton-20261128.apk",
+    "sha256":  "36AB91727BD21E180BD490C740622A52FE967FAE15C2268AFACF89FECE817344",
+    "sizeBytes":  79286609,
+    "notesEn":  "Lumi 1.9.24 - The media mini-player is now a small floating button. The old bottom bar sat on top of the app's navigation menu and covered it; in its place there is now a small circular button in the corner of the screen that never covers the menu. Tap it to play or pause; a thin ring around it shows how far the track has progressed. Press and hold it to open the full player card: track title, seek bar, previous/next, and a stop button that ends playback. You can drag the button anywhere on the screen and it remembers its place. It only appears while media is actually playing or paused, exactly as before.",
+    "notesFa":  "لومی ۱.۹.۲۴ - پخش‌کنندهٔ رسانه حالا یک دکمهٔ شناور کوچک است. نوار پایینیِ قبلی روی منوی ناوبری برنامه می‌نشست و آن را می‌پوشاند؛ حالا به جایش یک دکمهٔ دایره‌ای کوچک در گوشهٔ صفحه هست که هرگز روی منو نمی‌نشیند. با لمس آن پخش متوقف یا ادامه پیدا می‌کند و حلقهٔ باریک دور آن نشان می‌دهد آهنگ چقدر پیش رفته است. با نگه‌داشتن انگشت روی آن، کارت کامل پخش‌کننده باز می‌شود: عنوان آهنگ، نوار جابه‌جایی در پخش، آهنگ قبلی و بعدی، و دکمهٔ توقف که پخش را کامل پایان می‌دهد. دکمه را می‌توان با کشیدن به هر جای صفحه برد و جایش را به خاطر می‌سپارد. مثل قبل، این دکمه فقط وقتی دیده می‌شود که رسانه‌ای در حال پخش یا مکث باشد.",
+    "publishedAt":  "2026-11-28T12:19:55Z"
 }
