@@ -1,11 +1,11 @@
 {
-    "versionCode":  47,
-    "versionName":  "1.9.20",
-    "apkFileName":  "app-personal-release-overflowmenu-20261127.apk",
-    "apkUrl":  "https://github.com/mehdinikzad68/lumi-releases/releases/download/v1.9.20/app-personal-release-overflowmenu-20261127.apk",
-    "sha256":  "B701BD529756D170C4AD30EE6DDF07C64FC937CB586D06BBB3275D1B344C21D8",
-    "sizeBytes":  78444679,
-    "notesEn":  "Lumi 1.9.20 - clearer clearing. The conversation header\u0027s old \u0027Clear view + memory\u0027 button is gone. In its place, the 3-dot menu in both conversation headers now offers \u0027Clear chat history\u0027: a real delete of the current conversation\u0027s history - the visible thread, the context the model sees for this conversation, and its stored record (before, clearing only hid it). The session itself stays, empty and ready to continue. Separately, Settings - Memory \u0026 role now has \u0027Clear model memory\u0027: a two-step confirmation that lists exactly what will and will not be erased, then wipes everything Lumi has remembered about you. Your role text, provider keys, settings and chat sessions are not touched by it.",
-    "notesFa":  "لومی ۱.۹.۲۰ - پاک‌کردن شفاف‌تر. دکمه قدیمی پاک‌کردن نما و حافظه از سربرگ گفت‌وگو حذف شد. به‌جای آن، منوی سه‌نقطه در هر دو سربرگ گفت‌وگو گزینه «پاک کردن تاریخچه گفت‌وگو» را دارد: حذف واقعی تاریخچه گفت‌وگوی جاری؛ یعنی نخ نمایان، بافتی که مدل از این گفت‌وگو می‌بیند و سابقه ذخیره‌شده آن (پیش از این، پاک‌کردن فقط آن را پنهان می‌کرد). خود نشست باقی می‌ماند؛ خالی و آماده ادامه. جداگانه، در تنظیمات، بخش «حافظه و نقش» گزینه «پاک کردن حافظه مدل» افزوده شد: تأییدی دومرحله‌ای که دقیقاً می‌گوید چه چیزی پاک می‌شود و چه چیزی پاک نمی‌شود و سپس همه آنچه را لومی درباره شما به خاطر سپرده است پاک می‌کند. متن نقش، کلیدهای ارائه‌دهندگان، تنظیمات و نشست‌های گفت‌وگو با این کار دست نمی‌خورند.",
-    "publishedAt":  "2026-11-27T16:37:04Z"
+    "versionCode": 49,
+    "versionName": "1.9.22",
+    "apkFileName": "app-personal-release-resume-20261127.apk",
+    "apkUrl": "https://github.com/mehdinikzad68/lumi-releases/releases/download/v1.9.22/app-personal-release-resume-20261127.apk",
+    "sha256": "357622193D22DA34EDF63EF292672B8D31917B3FB0F300FF005259EE1DD125AA",
+    "sizeBytes": 79524292,
+    "notesEn": "Lumi 1.9.22 - Downloads that pick up where they left off, and one voice in Live. Update downloads are now resumable: if your connection drops, the download service dies, or the app restarts mid-download, the bytes already fetched are kept and the download continues from exactly that point instead of starting over. If the connection keeps failing, Lumi retries on its own a few times and then honestly shows the download as interrupted — with your progress saved and a Resume button in App updates and in the download notification. The SHA-256 verification before install is unchanged: only a complete, checksum-verified file is ever offered to install. And in Live, announcements are now read by the Live voice itself, in one voice from start to finish: the old split, where Persian parts and English parts were read by two different local voices, no longer happens while a Live session is running. Outside Live, announcements sound exactly as before.",
+    "notesFa": "لومی ۱.۹.۲۲ - دانلودهایی که از همان‌جا که ماندند ادامه پیدا می‌کنند و یک صدا در لایو. دانلود به‌روزرسانی‌ها حالا قابل ادامه است: اگر اتصال قطع شود، سرویس دانلود بمیرد یا برنامه وسط دانلود دوباره راه بیفتد، بایت‌هایی که گرفته شده‌اند حفظ می‌شوند و دانلود دقیقاً از همان نقطه ادامه پیدا می‌کند، نه از صفر. اگر اتصال مدام قطع شود، لومی چند بار خودش دوباره تلاش می‌کند و بعد صادقانه دانلود را «متوقف‌شده» نشان می‌دهد؛ با پیشرفت ذخیره‌شده و دکمه‌ی «ادامه‌ی دانلود» در بخش به‌روزرسانی برنامه و در اعلان دانلود. بررسی چکسام SHA-256 پیش از نصب بدون تغییر مانده است: فقط فایلی کامل و بررسی‌شده برای نصب پیشنهاد می‌شود. و در لایو، اعلان‌ها حالا با خودِ صدای لایو خوانده می‌شوند، از اول تا آخر با یک صدا: آن تقسیم قدیمی که بخش‌های فارسی و انگلیسی را دو صدای محلی متفاوت می‌خواندند، تا وقتی نشست لایو در حال اجراست دیگر اتفاق نمی‌افتد. بیرون از لایو، اعلان‌ها دقیقاً مثل قبل‌اند.",
+    "publishedAt": "2026-11-28T08:43:10Z"
 }
